@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Who Dis?</string>
+    <string name="quiz_app">Welcome to Who Dis</string>
+    <string name="welcome">Please enter your name below.</string>
+    <string name="e_g_john_doe">Type Here !</string>
+    <string name="enter">Enter</string>
+    <string name="question_1">Question #1</string>
+    <string name="submit">SUBMIT</string>
+</resources>
