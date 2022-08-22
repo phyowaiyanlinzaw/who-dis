@@ -43,6 +43,7 @@ class QuizUIActivity : AppCompatActivity(), View.OnClickListener {
         option3 = findViewById(R.id.option_three)
         option4 = findViewById(R.id.option_four)
         submitBTN = findViewById(R.id.submitBtn)
+
         userName = intent.getStringExtra(Constants.USER_NAME)
 
         option1?.setOnClickListener(this)
@@ -50,9 +51,9 @@ class QuizUIActivity : AppCompatActivity(), View.OnClickListener {
         option3?.setOnClickListener(this)
         option4?.setOnClickListener(this)
         submitBTN?.setOnClickListener(this)
+
         questionsList = Constants.getQuestions()
         setQuestion()
-        Log.i("Hi", numberArraysRandom.toString())
     }
 
     private fun setQuestion() {
